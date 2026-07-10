@@ -106,6 +106,12 @@ h2.head{font-family:"Archivo",sans-serif;font-weight:800;font-size:clamp(30px,4.
 .xp-desc{margin-top:10px;color:var(--ink-2);max-width:62ch}
 .xp-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}
 .xp-tags span{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--muted);background:var(--paper-2);padding:5px 10px;border-radius:6px}
+/* Logos de empresa por rol — imágenes .webp originales de Assets/. Dimensionadas por ALTURA fija; el ancho lo conserva el ratio intrínseco del <img> (atributos width/height), sin distorsión ni layout shift. */
+.xp-logos{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin-bottom:12px}
+.xp-via{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted)}
+/* Recuadro blanco unificador (tile): el "plato" es blanco fijo a propósito — los logos necesitan fondo blanco real, y var(--surface) es oscuro en tema dark. box-sizing:border-box → la altura total incluye el padding, el logo queda ~60px dentro. */
+.xp-logo{height:76px;width:auto;display:block;box-sizing:border-box;padding:8px 14px;background:#fff;border:1px solid var(--line);border-radius:8px}
+.xp-sep{flex:0 0 auto;width:1px;height:36px;background:var(--line-2)}
 
 /* SERVICIOS */
 .grid-serv{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:52px}
@@ -158,6 +164,8 @@ footer{border-top:1px solid var(--line);padding:40px 0}
   .burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
   .section{padding:80px 0}
   .xp-item{grid-template-columns:1fr;gap:8px}
+  .xp-logo{height:56px;padding:6px 10px}
+  .xp-sep{height:24px}
   .grid-serv{grid-template-columns:1fr}
   .about-grid{grid-template-columns:1fr;gap:36px}
 }
