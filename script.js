@@ -50,7 +50,7 @@ const dict = {
     hero_h1:"Construyo apps que usan <em>millones</em> de personas.",
     hero_lead:"Soy Oscar Martínez, ingeniero de software senior con más de 8 años construyendo apps web y móviles usadas por millones —Spin by OXXO, Aeroméxico—. Especializado en React Native, React, Node.js, .NET, AWS y flujos potenciados con IA, ayudo a empresas a llevar su producto de la idea a producción.",
     hero_cta1:"Hablemos de tu proyecto →",hero_cta2:"Ver experiencia",
-    meta1:"años de experiencia",meta2b:"Millones",meta2:"de usuarios alcanzados",meta3:"móvil · web · cloud",
+    meta1:"años de experiencia",meta2b:"Millones",meta2:"de usuarios alcanzados",meta3:"móvil · web · cloud · IA",
     exp_eyebrow:"// trabajo destacado",exp_head:"Productos que he ayudado a construir.",xp_via:"vía",tab_biz:"Negocio",tab_tech:"Técnico",
     xp1_when:"2025 — actualidad",xp1_biz:"La nueva app de Aeroméxico es como millones de pasajeros en México y LATAM reservan, hacen check-in y viajan. Construyo las pantallas y componentes reutilizables que mantienen esa experiencia rápida y confiable a escala enterprise.",xp1_tech:"React Native con TypeScript, integrando microservicios y APIs de backend en una arquitectura distribuida. Estándares estrictos de código, optimización de rendimiento y arquitectura limpia de nivel enterprise.",
     xp2_when:"2025 · Freelance",xp2_biz:"Una empresa de contratistas manejaba toda su operación en hojas de cálculo — ciudades, materiales y medidores, dispersos y a mano. Les construí un ERP a medida desde cero que lo centraliza todo, para que su equipo deje de perder horas en seguimiento manual y trabaje desde una sola fuente de verdad.",xp2_tech:"Backend .NET 7 con SQL Server y una PWA React mobile-first (Tailwind). Autenticación JWT, almacenamiento en AWS S3 y módulos de administración para ciudades, materiales y medidores. Desplegado en QA y producción en Ubuntu con Nginx, HTTPS (Let's Encrypt) y pipelines CI/CD.",
@@ -76,7 +76,7 @@ const dict = {
     hero_h1:"I build apps used by <em>millions</em>.",
     hero_lead:"I'm Oscar Martínez, a senior software engineer with 8+ years building web and mobile apps used by millions — Spin by OXXO, Aeroméxico. Specialized in React Native, React, Node.js, .NET, AWS and AI-augmented workflows, I help businesses take their product from idea to production.",
     hero_cta1:"Let's talk about your project →",hero_cta2:"See experience",
-    meta1:"years of experience",meta2b:"Millions",meta2:"of users reached",meta3:"mobile · web · cloud",
+    meta1:"years of experience",meta2b:"Millions",meta2:"of users reached",meta3:"mobile · web · cloud · AI",
     exp_eyebrow:"// selected work",exp_head:"Products I've helped build.",xp_via:"via",tab_biz:"Business",tab_tech:"Technical",
     xp1_when:"2025 — present",xp1_biz:"Aeroméxico's new mobile app is how millions of passengers across Mexico and LATAM book, check in and travel. I build the screens and reusable components that keep that experience fast and reliable at enterprise scale.",xp1_tech:"React Native with TypeScript, integrating microservices and backend APIs across a distributed architecture. Strict code standards, performance optimization and clean architecture required for enterprise-level reliability.",
     xp2_when:"2025 · Freelance",xp2_biz:"A contracting company was running its whole operation on spreadsheets — cities, materials and meter data, scattered and manual. I built them a custom ERP from scratch that centralizes it into one place, so their team stops losing hours to manual tracking and works from a single source of truth.",xp2_tech:".NET 7 backend with SQL Server and a mobile-first React PWA (Tailwind). JWT authentication, AWS S3 storage, and admin modules for cities, materials and meters. Deployed to QA and production on Ubuntu with Nginx, HTTPS (Let's Encrypt) and CI/CD pipelines.",
@@ -138,6 +138,8 @@ document.querySelectorAll('.xp-tablist').forEach(list => {
 
 /* MISC */
 document.getElementById('year').textContent = new Date().getFullYear();
+/* Años de experiencia: año actual menos 2018 (comienzo en dic. 2018) */
+document.getElementById('years-exp').textContent = (new Date().getFullYear() - 2018) + '+';
 const nav = document.getElementById('nav');
 const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 12); onScroll();
 window.addEventListener('scroll', onScroll, {passive:true});
