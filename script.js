@@ -79,7 +79,7 @@ const dict = {
     aria_theme: "Cambiar tema claro u oscuro",
     aria_menu: "Abrir menú",
     meta_desc:
-      "Ingeniero de software senior con más de 8 años construyendo apps móviles y web de alto tráfico. React Native, React, Node.js y .NET. Disponible para proyectos freelance.",
+      "Ingeniero de software senior con +8 años construyendo apps web y móviles usadas por millones —Spin by OXXO, Aeroméxico—. Ayudo a empresas a llevar su producto de la idea a producción.",
     hero_status: "Disponible para nuevos proyectos",
     hero_h1: "Construyo apps que usan <em>millones</em> de personas.",
     hero_lead:
@@ -162,7 +162,7 @@ const dict = {
     aria_theme: "Toggle light or dark theme",
     aria_menu: "Open menu",
     meta_desc:
-      "Senior software engineer with 8+ years building high-traffic mobile and web apps. React Native, React, Node.js and .NET. Available for freelance projects.",
+      "Senior software engineer with 8+ years building web and mobile apps used by millions — Spin by OXXO, Aeroméxico. I help businesses take their product from idea to production.",
     hero_status: "Available for new projects",
     hero_h1: "I build apps used by <em>millions</em>.",
     hero_lead:
