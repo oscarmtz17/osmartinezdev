@@ -146,6 +146,11 @@ h2.head{font-family:"Archivo",sans-serif;font-weight:800;font-size:clamp(30px,4.
 .contact p{color:var(--ink-2);margin:24px auto 40px;max-width:46ch}
 .mail-btn{font-family:"Archivo",sans-serif;font-weight:700;font-size:clamp(19px,3vw,27px);display:inline-flex;align-items:center;gap:14px;letter-spacing:-.02em;border-bottom:2px solid var(--line-2);padding-bottom:6px;transition:.25s var(--ease)}
 .mail-btn:hover{border-color:var(--accent);color:var(--accent)}
+/* Botón secundario "Agenda una llamada" (Calendly) — pill discreto bajo el email */
+.contact-call-wrap{margin-top:22px}
+.contact-call{font-family:"JetBrains Mono",monospace;font-size:14px;display:inline-flex;align-items:center;gap:8px;color:var(--ink);background:transparent;border:1px solid var(--line-2);border-radius:999px;padding:11px 22px;transition:.25s var(--ease)}
+.contact-call:hover{border-color:var(--accent);color:var(--accent)}
+.contact-call:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 .contact-loc{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--muted);margin-top:28px}
 
 /* FOOTER */

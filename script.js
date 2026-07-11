@@ -145,7 +145,8 @@ const dict = {
     contact_eyebrow: "// contacto",
     contact_head: "¿Construimos <em>algo?</em>",
     contact_p:
-      "Cuéntame qué tienes en mente. Respondo a todos los mensajes y, si no soy la persona indicada para tu proyecto, te lo diré con honestidad.",
+      "Cuéntame qué tienes en mente — una idea, un proyecto a medias o algo que quieres construir desde cero. Respondo a todos los mensajes y, si no soy la persona indicada, te lo diré con honestidad.",
+    contact_call: "Agenda una llamada →",
     contact_loc: "Monterrey, México · Disponible en remoto",
   },
   en: {
@@ -224,7 +225,8 @@ const dict = {
     contact_eyebrow: "// contact",
     contact_head: "Let's build <em>something?</em>",
     contact_p:
-      "Tell me what you have in mind. I reply to every message and, if I'm not the right person for your project, I'll tell you honestly.",
+      "Tell me what you have in mind — an idea, a half-finished project or something you want to build from scratch. I reply to every message and, if I'm not the right person for it, I'll tell you honestly.",
+    contact_call: "Book a call →",
     contact_loc: "Monterrey, Mexico · Available remotely",
   },
 };
