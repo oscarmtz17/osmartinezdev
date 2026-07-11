@@ -105,7 +105,7 @@
   <div class="wrap nav-inner">
     <a href="#top" class="brand"><span class="dot" aria-hidden="true"></span>osmartinez.dev</a>
     <nav class="nav-links" id="menu" aria-label="Primary">
-      <a href="#experiencia" data-i18n="nav_xp">Experience</a>
+      <a href="#experiencia" data-i18n="nav_xp">Selected work</a>
       <a href="#servicios" data-i18n="nav_serv">Services</a>
       <a href="#sobre" data-i18n="nav_about">About</a>
       <a href="#contacto" class="nav-cta" data-i18n="nav_cta">Let's talk</a>
@@ -154,8 +154,8 @@
   <!-- EXPERIENCIA -->
   <section class="section" id="experiencia" aria-labelledby="exp-title">
     <div class="wrap">
-      <div class="eyebrow reveal"><span class="idx" aria-hidden="true">01</span> <span data-i18n="exp_eyebrow">// I've worked with</span></div>
-      <h2 id="exp-title" class="head reveal" data-i18n="exp_head">Eight years shipping products used by millions.</h2>
+      <div class="eyebrow reveal"><span class="idx" aria-hidden="true">01</span> <span data-i18n="exp_eyebrow">// selected work</span></div>
+      <h2 id="exp-title" class="head reveal" data-i18n="exp_head">Products I've helped build.</h2>
 
       <div class="logos reveal">
         <span class="logo-chip">Aeroméxico</span>
@@ -176,16 +176,30 @@
               <span class="xp-sep"></span>
               <img class="xp-logo" src="Assets/Aeromexico.webp" alt="" width="1200" height="795" loading="lazy" decoding="async">
             </div>
-            <div class="xp-role">Senior React Native Developer · <span class="co">Softtek — Aeroméxico</span></div>
-            <p class="xp-desc" data-i18n="xp1_desc">Building screens and reusable components for Aeroméxico's new mobile app, serving millions of passengers across Mexico and LATAM. Microservice integration and enterprise-grade clean architecture.</p>
+            <div class="xp-role" id="xp1-role">Senior React Native Developer · <span class="co">Softtek — Aeroméxico</span></div>
+            <div class="xp-tabs">
+              <div class="xp-tablist" role="tablist" aria-labelledby="xp1-role">
+                <button class="xp-tab" role="tab" id="xp1-tab-biz" aria-controls="xp1-panel-biz" aria-selected="true" tabindex="0" data-i18n="tab_biz">Business</button>
+                <button class="xp-tab" role="tab" id="xp1-tab-tech" aria-controls="xp1-panel-tech" aria-selected="false" tabindex="-1" data-i18n="tab_tech">Technical</button>
+              </div>
+              <p class="xp-panel" role="tabpanel" id="xp1-panel-biz" aria-labelledby="xp1-tab-biz" tabindex="0" data-i18n="xp1_biz">Aeroméxico's new mobile app is how millions of passengers across Mexico and LATAM book, check in and travel. I build the screens and reusable components that keep that experience fast and reliable at enterprise scale.</p>
+              <p class="xp-panel" role="tabpanel" id="xp1-panel-tech" aria-labelledby="xp1-tab-tech" tabindex="0" data-i18n="xp1_tech" hidden>React Native with TypeScript, integrating microservices and backend APIs across a distributed architecture. Strict code standards, performance optimization and clean architecture required for enterprise-level reliability.</p>
+            </div>
             <div class="xp-tags"><span>React Native</span><span>TypeScript</span><span>Microservices</span><span>Clean Architecture</span></div>
           </div>
         </div>
         <div class="xp-item reveal">
           <div class="xp-when" data-i18n="xp2_when">2025 · Freelance</div>
           <div>
-            <div class="xp-role">Fullstack Developer · <span class="co">Custom ERP</span></div>
-            <p class="xp-desc" data-i18n="xp2_desc">Designed and built a custom ERP for electrical contractors end-to-end: .NET 7 backend with SQL Server and a React frontend (mobile-first PWA). JWT auth, AWS S3 storage and CI/CD deployment on Ubuntu/Nginx.</p>
+            <div class="xp-role" id="xp2-role">Fullstack Developer · <span class="co">Custom ERP</span></div>
+            <div class="xp-tabs">
+              <div class="xp-tablist" role="tablist" aria-labelledby="xp2-role">
+                <button class="xp-tab" role="tab" id="xp2-tab-biz" aria-controls="xp2-panel-biz" aria-selected="true" tabindex="0" data-i18n="tab_biz">Business</button>
+                <button class="xp-tab" role="tab" id="xp2-tab-tech" aria-controls="xp2-panel-tech" aria-selected="false" tabindex="-1" data-i18n="tab_tech">Technical</button>
+              </div>
+              <p class="xp-panel" role="tabpanel" id="xp2-panel-biz" aria-labelledby="xp2-tab-biz" tabindex="0" data-i18n="xp2_biz">A contracting company was running its whole operation on spreadsheets — cities, materials and meter data, scattered and manual. I built them a custom ERP from scratch that centralizes it into one place, so their team stops losing hours to manual tracking and works from a single source of truth.</p>
+              <p class="xp-panel" role="tabpanel" id="xp2-panel-tech" aria-labelledby="xp2-tab-tech" tabindex="0" data-i18n="xp2_tech" hidden>.NET 7 backend with SQL Server and a mobile-first React PWA (Tailwind). JWT authentication, AWS S3 storage, and admin modules for cities, materials and meters. Deployed to QA and production on Ubuntu with Nginx, HTTPS (Let's Encrypt) and CI/CD pipelines.</p>
+            </div>
             <div class="xp-tags"><span>.NET 7</span><span>React</span><span>SQL Server</span><span>AWS</span><span>CI/CD</span></div>
           </div>
         </div>
@@ -197,8 +211,15 @@
               <span class="xp-sep"></span>
               <img class="xp-logo" src="Assets/Spin.webp" alt="" width="1238" height="952" loading="lazy" decoding="async">
             </div>
-            <div class="xp-role">Mobile Developer · <span class="co">Digital FEMSA — Spin by OXXO</span></div>
-            <p class="xp-desc" data-i18n="xp3_desc">Built and maintained the B2C apps Spin Premia and Spin by OXXO, used by millions across Mexico and LATAM. TDD with Jest (85%+ coverage per pull request) and Firebase deployments under SCRUM.</p>
+            <div class="xp-role" id="xp3-role">Mobile Developer · <span class="co">Digital FEMSA — Spin by OXXO</span></div>
+            <div class="xp-tabs">
+              <div class="xp-tablist" role="tablist" aria-labelledby="xp3-role">
+                <button class="xp-tab" role="tab" id="xp3-tab-biz" aria-controls="xp3-panel-biz" aria-selected="true" tabindex="0" data-i18n="tab_biz">Business</button>
+                <button class="xp-tab" role="tab" id="xp3-tab-tech" aria-controls="xp3-panel-tech" aria-selected="false" tabindex="-1" data-i18n="tab_tech">Technical</button>
+              </div>
+              <p class="xp-panel" role="tabpanel" id="xp3-panel-biz" aria-labelledby="xp3-tab-biz" tabindex="0" data-i18n="xp3_biz">Spin Premia and Spin by OXXO are fintech apps used by millions across Mexico — loyalty, payments and rewards. I helped build and maintain the features that keep those apps dependable for a massive daily user base.</p>
+              <p class="xp-panel" role="tabpanel" id="xp3-panel-tech" aria-labelledby="xp3-tab-tech" tabindex="0" data-i18n="xp3_tech" hidden>React Native, Redux and TypeScript, with TDD in Jest at 85%+ coverage per pull request. QA and production releases managed through Firebase, following SCRUM with bi-weekly sprints.</p>
+            </div>
             <div class="xp-tags"><span>React Native</span><span>Redux</span><span>TypeScript</span><span>Jest</span><span>Firebase</span></div>
           </div>
         </div>
@@ -211,8 +232,15 @@
               <span class="xp-sep"></span>
               <img class="xp-logo" src="Assets/Sumitomo.webp" alt="" width="425" height="283" loading="lazy" decoding="async">
             </div>
-            <div class="xp-role">Fullstack Developer · <span class="co">Improving — Sumitomo</span></div>
-            <p class="xp-desc" data-i18n="xp4_desc">Enterprise web apps for Sumitomo Corporation in fully remote, English-speaking teams. React, Redux and TypeScript, SQL Server services, TDD with Jest and deployment to Microsoft Azure.</p>
+            <div class="xp-role" id="xp4-role">Fullstack Developer · <span class="co">Improving — Sumitomo</span></div>
+            <div class="xp-tabs">
+              <div class="xp-tablist" role="tablist" aria-labelledby="xp4-role">
+                <button class="xp-tab" role="tab" id="xp4-tab-biz" aria-controls="xp4-panel-biz" aria-selected="true" tabindex="0" data-i18n="tab_biz">Business</button>
+                <button class="xp-tab" role="tab" id="xp4-tab-tech" aria-controls="xp4-panel-tech" aria-selected="false" tabindex="-1" data-i18n="tab_tech">Technical</button>
+              </div>
+              <p class="xp-panel" role="tabpanel" id="xp4-panel-biz" aria-labelledby="xp4-tab-biz" tabindex="0" data-i18n="xp4_biz">For Sumitomo Corporation, a global enterprise, I helped deliver internal web applications that streamline how their teams work — built fully remotely alongside US stakeholders, in English.</p>
+              <p class="xp-panel" role="tabpanel" id="xp4-panel-tech" aria-labelledby="xp4-tab-tech" tabindex="0" data-i18n="xp4_tech" hidden>React, Redux, TypeScript and DevExpress on the front, SQL Server services on the back, with TDD in Jest. Deployed to Microsoft Azure, collaborating in Agile teams across time zones.</p>
+            </div>
             <div class="xp-tags"><span>React</span><span>TypeScript</span><span>SQL Server</span><span>Azure</span></div>
           </div>
         </div>
@@ -222,8 +250,15 @@
             <div class="xp-logos" aria-hidden="true">
               <img class="xp-logo" src="Assets/Terminallogistics.webp" alt="" width="694" height="288" loading="lazy" decoding="async">
             </div>
-            <div class="xp-role">Fullstack Developer · <span class="co">Terminal Logistics</span></div>
-            <p class="xp-desc" data-i18n="xp5_desc">High-volume logistics solutions with React, React Native, Node.js and C#/.NET. Managed SQL Server and MongoDB databases for high-throughput operations.</p>
+            <div class="xp-role" id="xp5-role">Fullstack Developer · <span class="co">Terminal Logistics</span></div>
+            <div class="xp-tabs">
+              <div class="xp-tablist" role="tablist" aria-labelledby="xp5-role">
+                <button class="xp-tab" role="tab" id="xp5-tab-biz" aria-controls="xp5-panel-biz" aria-selected="true" tabindex="0" data-i18n="tab_biz">Business</button>
+                <button class="xp-tab" role="tab" id="xp5-tab-tech" aria-controls="xp5-panel-tech" aria-selected="false" tabindex="-1" data-i18n="tab_tech">Technical</button>
+              </div>
+              <p class="xp-panel" role="tabpanel" id="xp5-panel-biz" aria-labelledby="xp5-tab-biz" tabindex="0" data-i18n="xp5_biz">Terminal Logistics moves high volumes of freight, and their operation runs on custom software. I led development of the logistics tools that keep that throughput flowing, day in and day out.</p>
+              <p class="xp-panel" role="tabpanel" id="xp5-panel-tech" aria-labelledby="xp5-tab-tech" tabindex="0" data-i18n="xp5_tech" hidden>React, React Native, Redux, Node.js and C#/.NET, managing SQL Server and MongoDB databases built for high-throughput logistics operations.</p>
+            </div>
             <div class="xp-tags"><span>React Native</span><span>Node.js</span><span>.NET</span><span>MongoDB</span></div>
           </div>
         </div>
