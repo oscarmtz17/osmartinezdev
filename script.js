@@ -124,16 +124,19 @@ const dict = {
     serv_head: "Del problema al producto que aguanta producción.",
     serv1_t: "Apps móviles",
     serv1_d:
-      "Apps iOS y Android con React Native, del prototipo a la tienda. La misma base con la que construí productos usados por millones.",
-    serv2_t: "Aplicaciones web full-stack",
+      "Apps iOS y Android que tus clientes quieren usar — del prototipo a la tienda, sobre la misma base con la que construí productos usados por millones.",
+    serv2_t: "Plataformas y aplicaciones web",
     serv2_d:
-      "Front y back a medida con React/Next.js y Node.js o .NET. Arquitectura limpia y código con pruebas, no prototipos frágiles.",
+      "La plataforma web que tu negocio necesita, hecha para durar y crecer contigo — de punta a punta con React/Next.js y Node.js o .NET, con código probado, no prototipos frágiles.",
     serv3_t: "Sistemas a medida y ERPs",
     serv3_d:
-      "Sistemas internos, ERPs y paneles que automatizan tu operación — como el ERP que construí de cero, punta a punta, para un cliente.",
-    serv4_t: "APIs, integraciones y cloud",
+      "Sistemas, ERPs y paneles que automatizan el trabajo manual que frena a tu equipo — como el ERP que construí de cero, punta a punta, para un cliente.",
+    serv4_t: "Integraciones y automatización",
     serv4_d:
-      "APIs REST, integraciones con terceros y despliegue en AWS o Azure con CI/CD. Todo entregado listo para producción.",
+      "Conecta tu software con pagos, servicios de terceros y la nube — APIs REST e integraciones desplegadas en AWS o Azure, listas para producción desde el día uno.",
+    serv5_t: "Rescate y mejora de productos",
+    serv5_d:
+      "¿Ya tienes algo que se estancó, se rompió o se volvió difícil de mantener? Entro a estabilizar, optimizar y hacer avanzar tu producto existente — sin reescribir lo que ya funciona.",
     about_eyebrow: "// sobre mí",
     about_head: "No solo escribo código. Entrego productos que funcionan.",
     about_p1:
@@ -204,16 +207,19 @@ const dict = {
     serv_head: "From the problem to a product that survives production.",
     serv1_t: "Mobile apps",
     serv1_d:
-      "iOS and Android apps with React Native, from prototype to store. The same foundation I used to build products used by millions.",
-    serv2_t: "Full-stack web apps",
+      "iOS and Android apps your customers actually want to use — from prototype to the App Store, built on the same foundation behind products used by millions.",
+    serv2_t: "Web platforms & apps",
     serv2_d:
-      "Custom front and back with React/Next.js and Node.js or .NET. Clean architecture and tested code, not fragile prototypes.",
+      "The web platform your business needs, built to last and grow with you — end to end with React/Next.js and Node.js or .NET, with tested code, not fragile prototypes.",
     serv3_t: "Custom systems & ERPs",
     serv3_d:
-      "Internal systems, ERPs and dashboards that automate your operation — like the ERP I built from scratch, end-to-end, for a client.",
-    serv4_t: "APIs, integrations & cloud",
+      "Systems, ERPs and dashboards that automate the manual work slowing your team down — like the ERP I built from scratch, end to end, for a client.",
+    serv4_t: "Integrations & automation",
     serv4_d:
-      "REST APIs, third-party integrations and deployment on AWS or Azure with CI/CD. Everything delivered production-ready.",
+      "Connect your software to payments, third-party services and the cloud — REST APIs and integrations deployed on AWS or Azure, ready for production from day one.",
+    serv5_t: "Product rescue & improvement",
+    serv5_d:
+      "Already have something that stalled, broke or grew hard to maintain? I step in to stabilize, optimize and move your existing product forward — without rewriting what already works.",
     about_eyebrow: "// about me",
     about_head: "I don't just write code. I ship products that work.",
     about_p1:
