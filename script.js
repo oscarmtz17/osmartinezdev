@@ -95,7 +95,7 @@ const dict = {
     xp_via: "vía",
     tab_biz: "Negocio",
     tab_tech: "Técnico",
-    xp1_when: "2025 — actualidad",
+    xp1_when: "2025 — 2026",
     xp1_biz:
       "La nueva app de Aeroméxico es como millones de pasajeros en México y LATAM reservan, hacen check-in y viajan. Construyo las pantallas y componentes reutilizables que mantienen esa experiencia rápida y confiable a escala enterprise.",
     xp1_tech:
@@ -137,11 +137,11 @@ const dict = {
     about_eyebrow: "// sobre mí",
     about_head: "No solo escribo código. Entrego productos que funcionan.",
     about_p1:
-      "Soy ingeniero de software senior con más de <strong>8 años construyendo aplicaciones móviles y web de alto tráfico</strong>. He entregado productos usados por millones de personas —Spin by OXXO, Aeroméxico— y sistemas a medida de punta a punta como freelance.",
+      "Soy ingeniero de software senior con más de <strong>8 años construyendo aplicaciones móviles y web de alto tráfico</strong> para empresas de todos los tamaños. He entregado productos usados por millones de personas —Spin by OXXO, Aeroméxico— y sistemas a medida de punta a punta como freelance.",
     about_p2:
-      "Trabajo con <strong>TDD (85%+ de cobertura)</strong>, arquitectura limpia y flujos de desarrollo aumentados con IA. Llevo más de dos años colaborando a diario con equipos de EE.UU. en entornos 100% remotos y en inglés.",
+      "Trabajo con <strong>arquitectura limpia, código probado y comunicación clara</strong> — para que lo que construyo siga funcionando y siempre sepas cómo va tu proyecto. Llevo más de dos años colaborando a diario con equipos de EE. UU., 100% remoto y en inglés.",
     about_p3:
-      "Si necesitas una app, un sistema a medida o mejorar un producto existente, puedo ayudarte de principio a fin.",
+      "Ya sea una app nueva, un sistema a medida o rescatar un producto que se estancó, puedo llevarlo de la idea a producción.",
     contact_eyebrow: "// contacto",
     contact_head: "¿Construimos <em>algo?</em>",
     contact_p:
@@ -174,7 +174,7 @@ const dict = {
     xp_via: "via",
     tab_biz: "Business",
     tab_tech: "Technical",
-    xp1_when: "2025 — present",
+    xp1_when: "2025 — 2026",
     xp1_biz:
       "Aeroméxico's new mobile app is how millions of passengers across Mexico and LATAM book, check in and travel. I build the screens and reusable components that keep that experience fast and reliable at enterprise scale.",
     xp1_tech:
@@ -216,11 +216,11 @@ const dict = {
     about_eyebrow: "// about me",
     about_head: "I don't just write code. I ship products that work.",
     about_p1:
-      "I'm a senior software engineer with <strong>8+ years building high-traffic mobile and web applications</strong>. I've shipped products used by millions —Spin by OXXO, Aeroméxico— and delivered custom systems end-to-end as a freelancer.",
+      "I'm a senior software engineer with <strong>8+ years building high-traffic mobile and web applications</strong> for companies of every size. I've shipped products used by millions —Spin by OXXO, Aeroméxico— and delivered custom systems end to end as a freelancer.",
     about_p2:
-      "I work with <strong>TDD (85%+ coverage)</strong>, clean architecture and AI-augmented development workflows. For 2+ years I've collaborated daily with US teams in fully remote, English-speaking environments.",
+      "I work with <strong>clean architecture, tested code and clear communication</strong> — so what I build keeps working, and you always know where your project stands. For 2+ years I've collaborated daily with US teams, fully remote and in English.",
     about_p3:
-      "If you need an app, a custom system or to improve an existing product, I can help you end to end.",
+      "Whether you need a new app, a custom system or to rescue a product that stalled, I can take it from idea to production.",
     contact_eyebrow: "// contact",
     contact_head: "Let's build <em>something?</em>",
     contact_p:
