@@ -120,6 +120,8 @@ h2.head{font-family:"Archivo",sans-serif;font-weight:800;font-size:clamp(30px,4.
 .xp-via{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--muted)}
 /* Recuadro blanco unificador (tile): el "plato" es blanco fijo a propósito — los logos necesitan fondo blanco real, y var(--surface) es oscuro en tema dark. box-sizing:border-box → la altura total incluye el padding, el logo queda ~60px dentro. */
 .xp-logo{height:76px;width:auto;display:block;box-sizing:border-box;padding:8px 14px;background:#fff;border:1px solid var(--line);border-radius:8px}
+/* Logos tipográficos muy anchos (p. ej. Suplementos Dealer, ~9:1): limitar el ancho al contenedor y escalar sin deformar dentro del tile. */
+.xp-logo--wide{max-width:100%;object-fit:contain}
 .xp-sep{flex:0 0 auto;width:1px;height:36px;background:var(--line-2)}
 
 /* SERVICIOS */

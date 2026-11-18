@@ -95,6 +95,11 @@ const dict = {
     xp_via: "vía",
     tab_biz: "Negocio",
     tab_tech: "Técnico",
+    xp6_when: "2026 · Freelance",
+    xp6_biz:
+      "Suplementos Dealer vende suplementos deportivos en línea con entrega en Monterrey. Trabajé directo con el equipo de producto para definir sus reglas de pedidos, envíos, pagos e inventario, y luego diseñé y lancé su tienda y panel de administración — con IA que convierte el pedido de un proveedor (foto, PDF u hoja de cálculo) en stock actualizado, para que surtir ya no signifique capturar cada producto a mano.",
+    xp6_tech:
+      "Next.js 16, React 19 y TypeScript sobre Supabase (PostgreSQL, Auth, Storage), protegido con Row Level Security y funciones atómicas de Postgres, incluido el control de caducidad por lote. La API de Claude lee pedidos de proveedores en imágenes, PDF, Excel/CSV o Word con salidas estructuradas validadas con Zod, y redacta los detalles de productos nuevos con tool use y búsqueda web. Desplegado en Vercel y Cloudflare con ambientes separados de staging y producción, y 95+ en Lighthouse móvil.",
     xp1_when: "2025 — 2026",
     xp1_biz:
       "La nueva app de Aeroméxico es como millones de pasajeros en México y LATAM reservan, hacen check-in y viajan. Construyo las pantallas y componentes reutilizables que mantienen esa experiencia rápida y confiable a escala enterprise.",
@@ -178,6 +183,11 @@ const dict = {
     xp_via: "via",
     tab_biz: "Business",
     tab_tech: "Technical",
+    xp6_when: "2026 · Freelance",
+    xp6_biz:
+      "Suplementos Dealer sells sports supplements online with delivery across Monterrey. I worked directly with the product team to map their rules for orders, shipping, payments and inventory, then designed and launched their store and admin panel — with AI that turns a supplier's order (a photo, PDF or spreadsheet) into updated stock, so restocking no longer means typing every product by hand.",
+    xp6_tech:
+      "Next.js 16, React 19 and TypeScript on Supabase (PostgreSQL, Auth, Storage), secured with Row Level Security and atomic Postgres functions, including lot-based expiry tracking. The Claude API reads supplier orders from images, PDFs, Excel/CSV or Word with Zod-validated structured outputs, and drafts details for new products with tool use and web search. Deployed on Vercel and Cloudflare with separate staging and production, and a 95+ mobile Lighthouse score.",
     xp1_when: "2025 — 2026",
     xp1_biz:
       "Aeroméxico's new mobile app is how millions of passengers across Mexico and LATAM book, check in and travel. I build the screens and reusable components that keep that experience fast and reliable at enterprise scale.",
