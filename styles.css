@@ -104,6 +104,7 @@ h2.head{font-family:"Archivo",sans-serif;font-weight:800;font-size:clamp(30px,4.
 .xp-when{font-family:"JetBrains Mono",monospace;font-size:13px;color:var(--muted)}
 .xp-role{font-family:"Archivo",sans-serif;font-weight:700;font-size:21px;letter-spacing:-.01em;line-height:1.2}
 .xp-role .co{color:var(--accent)}
+.xp-role a.co:hover{text-decoration:underline;text-underline-offset:3px}
 /* Pestañas Negocio/Técnico por rol */
 .xp-tabs{margin-top:14px}
 .xp-tablist{display:flex;flex-wrap:wrap;gap:22px;border-bottom:1px solid var(--line)}
